@@ -3342,6 +3342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79bd82aae60f91b4bb36689f808c1a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isStarted: 0
   timerFill: {fileID: 1280692582}
   startingUI: {fileID: 2045676547}
   startingText: {fileID: 720041598}
@@ -4407,6 +4408,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 744579003}
+  - component: {fileID: 744579002}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -4414,6 +4416,32 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &744579002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744579001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0254bc99d773a45977865cdce4ebe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startHandwashing:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 648665941}
+        m_MethodName: StartHandwashingGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &744579003
 Transform:
   m_ObjectHideFlags: 0
