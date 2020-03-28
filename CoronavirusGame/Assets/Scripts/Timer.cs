@@ -32,8 +32,7 @@ public class Timer : MonoBehaviour
     private bool handwashingActive = false;
     private bool faceTouchingActive = false;
     private bool socialDistancingActive = false;
-
-    [SerializeField] private UnityEvent startFTGame;
+    private bool hiddenobjectActive = false;
     
 
     // Start is called before the first frame update
@@ -122,12 +121,14 @@ public class Timer : MonoBehaviour
         handwashingActive = true;
         faceTouchingActive = false;
         socialDistancingActive = false;
+        hiddenobjectActive = false;
     }
 
     public void StartFaceTouchingGame()
     {
         handwashingActive = false;
         faceTouchingActive = true;
+        hiddenobjectActive = false;
         socialDistancingActive = false;
     }
 
@@ -135,7 +136,17 @@ public class Timer : MonoBehaviour
     {
         handwashingActive = false;
         faceTouchingActive = false;
+        hiddenobjectActive = false;
         socialDistancingActive = true;
+        
+    }
+
+    public void StartHiddenObjectGame()
+    {
+        handwashingActive = false;
+        faceTouchingActive = false;
+        socialDistancingActive = false;
+        hiddenobjectActive = true;
     }
 
     private void GetGermPercent()
@@ -145,6 +156,7 @@ public class Timer : MonoBehaviour
 
     public void StartGame()
     {
+        Debug.Log("startGame");
         endingUI.SetActive(false);
         endButton.SetActive(false);
         tutorial.SetActive(false);
@@ -164,7 +176,6 @@ public class Timer : MonoBehaviour
         startingUI.SetActive(false);
 
         SceneManager.LoadScene(1);
-
     }
 
 

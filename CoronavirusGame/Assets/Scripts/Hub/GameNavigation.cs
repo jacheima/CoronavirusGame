@@ -19,4 +19,9 @@ public class GameNavigation : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+
+    public void GoToHiddenObjectGame()
+    {
+        SceneManager.LoadScene(5);
+    }
 }

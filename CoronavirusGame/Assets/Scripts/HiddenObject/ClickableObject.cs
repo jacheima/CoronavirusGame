@@ -12,44 +12,43 @@ public class ClickableObject : MonoBehaviour
         switch (nameOfObject)
         {
             case "Balls":
-                
-                hiddenObject.
+                hiddenObject.Ball();
                 break;
             case "Blanket":
-                
+                hiddenObject.Blanket();
                 break;
             case "Blocks":
-                hiddenObject.isBlocksFound = true;
+                hiddenObject.Blocks();
                 break;
             case "Books":
-                hiddenObject.isBooksFound = true;
+                hiddenObject.Books();
                 break;
             case "Console":
-                hiddenObject.isConsoleFound = true;
+                hiddenObject.Console();
                 break;
             case "Movies":
-                hiddenObject.isMoviesFound = true;
+                hiddenObject.Movies();
                 break;
             case "Paint":
-                hiddenObject.isPaintFound = true;
+                hiddenObject.Paint();
                 break;
             case "Pencils":
-                hiddenObject.isPencilsFound = true;
+                hiddenObject.Pencils();
                 break;
             case "Picture":
-                hiddenObject.isPictureFound = true;
+                hiddenObject.Picture();
                 break;
             case "Pillow":
-                hiddenObject.isPictureFound = true;
+                hiddenObject.Pillow();
                 break;
             case "Rocket":
-                hiddenObject.isRocketFound = true;
+                hiddenObject.Rocket();
                 break;
             case "Teddy":
-                hiddenObject.isTeddyFound = true;
+                hiddenObject.Teddy();
                 break;
             case "Truck":
-                hiddenObject.isTruckFound = true;
+                hiddenObject.Truck();
                 break;
         }
     }
