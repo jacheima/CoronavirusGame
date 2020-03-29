@@ -337,7 +337,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/SneezingGame
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
