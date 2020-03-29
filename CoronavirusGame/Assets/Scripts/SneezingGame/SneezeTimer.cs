@@ -2,21 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class SneezeTimer : MonoBehaviour
 {
-    
+
     private float sneezeWait;
     [SerializeField] private GameObject arm;
     [SerializeField] private GameObject warningUI;
 
+    [SerializeField] private UnityEvent sneeze;
+
+    [SerializeField] private Animator sneezeAnim;
+
     private float sneezeStartTime;
 
     private bool isReadyToSneeze;
+    public bool isSneezing;
 
     private Animator anim;
 
     private int score;
+
+    private bool clicked;
 
     private void Start()
     {
@@ -25,31 +33,33 @@ public class SneezeTimer : MonoBehaviour
         sneezeStartTime = Time.time;
         sneezeWait = 1;
         isReadyToSneeze = false;
-        
+        isSneezing = false;
     }
 
     private void Update()
     {
-        if(Time.time > sneezeStartTime + sneezeWait && !isReadyToSneeze)
+        if (Time.time > sneezeStartTime + sneezeWait && !isReadyToSneeze)
         {
             isReadyToSneeze = true;
             sneezeWait = Random.Range(5, 15);
 
         }
 
-        if(isReadyToSneeze)
+        if(isSneezing)
+        {
+            isReadyToSneeze = false;
+            sneezeAnim.SetBool("didSneeze", true);
+        }
+
+        if (isReadyToSneeze)
         {
             anim.SetBool("startWarning", true);
         }
 
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             arm.GetComponent<Animator>().SetBool("sneeze", true);
-
-            if(isReadyToSneeze)
-            {
-                score++;
-            }
+            clicked = true;
         }
     }
 
@@ -59,11 +69,23 @@ public class SneezeTimer : MonoBehaviour
         anim.SetBool("playWarning", true);
         anim.SetBool("startWarning", false);
     }
-    
+
     public void Sneeze()
     {
         anim.SetBool("playWarning", false);
         anim.SetBool("exitAnim", true);
+        sneezeAnim.SetBool("didSneeze", true);
         isReadyToSneeze = false;
+        isSneezing = true;
+
+        if(clicked)
+        {
+            score++;
+            clicked = false;
+        }
+        else
+        {
+            score--;
+        }
     }
 }

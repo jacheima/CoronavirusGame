@@ -5,10 +5,23 @@ using UnityEngine.Events;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField] private UnityEvent played;
+    
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 
     private void OnMouseDown()
     {
-        
+        GameManager.instance.PlayedSocialDistancing();
+
     }
 }

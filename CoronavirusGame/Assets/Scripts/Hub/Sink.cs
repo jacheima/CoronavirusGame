@@ -6,7 +6,6 @@ using UnityEngine.Events;
 
 public class Sink : MonoBehaviour
 {
-    [SerializeField] private UnityEvent playedHandwashing;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +22,7 @@ public class Sink : MonoBehaviour
     private void OnMouseDown()
     {
 
-        playedHandwashing.Invoke();
+        GameManager.instance.PlayedHandwashing();
         
         
     }

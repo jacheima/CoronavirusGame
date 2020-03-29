@@ -33,6 +33,7 @@ public class Timer : MonoBehaviour
     private bool faceTouchingActive = false;
     private bool socialDistancingActive = false;
     private bool hiddenobjectActive = false;
+    private bool sneezingGameAvtive = false;
 
     public GameObject water1;
     public GameObject water2;
@@ -121,6 +122,16 @@ public class Timer : MonoBehaviour
                 {
                     statText.text = "";
                 }
+
+                if(hiddenobjectActive)
+                {
+                    statText.text = "";
+                }
+
+                if(sneezingGameAvtive)
+                {
+                    statText.text = "";
+                }
             }
         }
         else
@@ -129,14 +140,14 @@ public class Timer : MonoBehaviour
             {
                 startingUI.SetActive(true);
 
-                if(handwashingActive && !faceTouchingActive && !socialDistancingActive)
+                if(handwashingActive)
                 {
                     startingText.GetComponent<Text>().text = "Hi there! \n\n Let's learn to wash our hands to get all the " +
                         "germs off. You can be a here by: \n\n*Using water to rinse your hands \n*Using soap to scrub " +
                         "away all the germ \n*Rinse your hands to get all the soap off \n";
                 }
 
-                if(faceTouchingActive && !handwashingActive && !socialDistancingActive)
+                if(faceTouchingActive)
                 {
                     startingText.GetComponent<Text>().text = "When we touch things around the house, like a door " +
                         "knob or our phones, germs stick to our hands. Then when we touch our face, they travel " +
@@ -144,7 +155,16 @@ public class Timer : MonoBehaviour
                         "healthy! \n\nClick his hands when you see them to stop him from touching his face. Good luck!";
                 }
 
-                if(socialDistancingActive && !handwashingActive && !faceTouchingActive)
+                if(socialDistancingActive)
+                {
+                    startingText.GetComponent<Text>().text = "";
+                }
+
+                if(sneezingGameAvtive)
+                {
+                    startingText.GetComponent<Text>().text = "";
+                }
+                if(hiddenobjectActive)
                 {
                     startingText.GetComponent<Text>().text = "";
                 }
@@ -160,6 +180,7 @@ public class Timer : MonoBehaviour
         faceTouchingActive = false;
         socialDistancingActive = false;
         hiddenobjectActive = false;
+        sneezingGameAvtive = false;
     }
 
     public void StartFaceTouchingGame()
@@ -168,6 +189,7 @@ public class Timer : MonoBehaviour
         faceTouchingActive = true;
         hiddenobjectActive = false;
         socialDistancingActive = false;
+        sneezingGameAvtive = false;
     }
 
     public void StartSocialDistancingGame()
@@ -176,6 +198,7 @@ public class Timer : MonoBehaviour
         faceTouchingActive = false;
         hiddenobjectActive = false;
         socialDistancingActive = true;
+        sneezingGameAvtive = false;
         
     }
 
@@ -185,6 +208,16 @@ public class Timer : MonoBehaviour
         faceTouchingActive = false;
         socialDistancingActive = false;
         hiddenobjectActive = true;
+        sneezingGameAvtive = false;
+    }
+
+    public void StartSneezingGame()
+    {
+        handwashingActive = false;
+        faceTouchingActive = false;
+        socialDistancingActive = false;
+        hiddenobjectActive = false;
+        sneezingGameAvtive = true;
     }
 
     private void GetGermPercent()
@@ -194,7 +227,6 @@ public class Timer : MonoBehaviour
 
     public void StartGame()
     {
-        Debug.Log("startGame");
         endingUI.SetActive(false);
         endButton.SetActive(false);
         tutorial.SetActive(false);
