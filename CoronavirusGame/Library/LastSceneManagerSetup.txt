@@ -1,6 +1,10 @@
 sceneSetups:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - path: Assets/Scenes/SocialDistancing.unity
+=======
+- path: Assets/Scenes/SneezingGame.unity
+>>>>>>> Stashed changes
 =======
 - path: Assets/Scenes/SneezingGame.unity
 >>>>>>> Stashed changes

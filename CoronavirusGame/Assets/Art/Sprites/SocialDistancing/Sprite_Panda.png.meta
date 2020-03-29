@@ -1,6 +1,10 @@
 fileFormatVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 guid: 7fca0e5d151860b4aae8d152d30adaac
+=======
+guid: 3f7db53b061b19f4bb0e9b2cef70e661
+>>>>>>> Stashed changes
 =======
 guid: 3f7db53b061b19f4bb0e9b2cef70e661
 >>>>>>> Stashed changes
@@ -60,7 +64,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     filterMode: 0
+=======
+    filterMode: -1
+>>>>>>> Stashed changes
 =======
     filterMode: -1
 >>>>>>> Stashed changes
@@ -116,7 +124,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -129,6 +140,9 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -149,15 +163,21 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         x: 38
         y: 5
         width: 222
         height: 276
 =======
+=======
+>>>>>>> Stashed changes
         x: 37
         y: 4
         width: 224
         height: 277
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -167,7 +187,11 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       spriteID: bac30932ab3071c4baaad304867959d1
+=======
+      spriteID: ed3320c07654a7344a5f3c976c58f3f8
+>>>>>>> Stashed changes
 =======
       spriteID: ed3320c07654a7344a5f3c976c58f3f8
 >>>>>>> Stashed changes
@@ -182,9 +206,15 @@ TextureImporter:
         serializedVersion: 2
         x: 336
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         y: 4
         width: 224
         height: 278
+=======
+        y: 3
+        width: 225
+        height: 280
+>>>>>>> Stashed changes
 =======
         y: 3
         width: 225
@@ -198,7 +228,11 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       spriteID: 6f29cb08fd9130e4893aaf07083b12c9
+=======
+      spriteID: 957aa1be91391514e80222a31d7cf013
+>>>>>>> Stashed changes
 =======
       spriteID: 957aa1be91391514e80222a31d7cf013
 >>>>>>> Stashed changes
@@ -213,9 +247,15 @@ TextureImporter:
         serializedVersion: 2
         x: 629
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         y: 5
         width: 225
         height: 283
+=======
+        y: 4
+        width: 225
+        height: 285
+>>>>>>> Stashed changes
 =======
         y: 4
         width: 225
@@ -229,7 +269,11 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       spriteID: 3297e41680dcfaa46a8e3a70c293ceb7
+=======
+      spriteID: 57a002ee3dba0e54eaa8925983487b5a
+>>>>>>> Stashed changes
 =======
       spriteID: 57a002ee3dba0e54eaa8925983487b5a
 >>>>>>> Stashed changes
@@ -243,15 +287,21 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         x: 939
         y: 4
         width: 224
         height: 278
 =======
+=======
+>>>>>>> Stashed changes
         x: 938
         y: 3
         width: 225
         height: 280
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -261,7 +311,11 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       spriteID: 85759a15538a2764eb34440b0484e236
+=======
+      spriteID: 7d2387dd8af800044b0a157823ac2a0f
+>>>>>>> Stashed changes
 =======
       spriteID: 7d2387dd8af800044b0a157823ac2a0f
 >>>>>>> Stashed changes
@@ -275,15 +329,21 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         x: 1240
         y: 5
         width: 223
         height: 276
 =======
+=======
+>>>>>>> Stashed changes
         x: 1239
         y: 4
         width: 224
         height: 277
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -293,7 +353,11 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       spriteID: ce42b398769b3ff4795433e4248671c0
+=======
+      spriteID: 895b0efe45c6f44459ecc02c24ec035e
+>>>>>>> Stashed changes
 =======
       spriteID: 895b0efe45c6f44459ecc02c24ec035e
 >>>>>>> Stashed changes
@@ -308,9 +372,15 @@ TextureImporter:
         serializedVersion: 2
         x: 1536
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         y: 5
         width: 224
         height: 277
+=======
+        y: 4
+        width: 225
+        height: 279
+>>>>>>> Stashed changes
 =======
         y: 4
         width: 225
@@ -324,7 +394,11 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       spriteID: 5f43b69450a66d14b8c920f916fd93bb
+=======
+      spriteID: 6ab220675c9a93f458a8cdd92cba6ebe
+>>>>>>> Stashed changes
 =======
       spriteID: 6ab220675c9a93f458a8cdd92cba6ebe
 >>>>>>> Stashed changes
@@ -338,15 +412,21 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         x: 1846
         y: 4
         width: 225
         height: 284
 =======
+=======
+>>>>>>> Stashed changes
         x: 1845
         y: 3
         width: 226
         height: 286
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -356,7 +436,11 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       spriteID: 3ca9479f40275ba4c907763c88b59407
+=======
+      spriteID: 46a45646e2ef1904ab7d2ba50802d42f
+>>>>>>> Stashed changes
 =======
       spriteID: 46a45646e2ef1904ab7d2ba50802d42f
 >>>>>>> Stashed changes
@@ -370,15 +454,21 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         x: 2140
         y: 5
         width: 224
         height: 277
 =======
+=======
+>>>>>>> Stashed changes
         x: 2139
         y: 4
         width: 225
         height: 279
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -388,7 +478,11 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       spriteID: 1d7c73f6d8f7ca24898aaf6520b960b1
+=======
+      spriteID: 6f4ef71a2123fb14296b35948228c10e
+>>>>>>> Stashed changes
 =======
       spriteID: 6f4ef71a2123fb14296b35948228c10e
 >>>>>>> Stashed changes
