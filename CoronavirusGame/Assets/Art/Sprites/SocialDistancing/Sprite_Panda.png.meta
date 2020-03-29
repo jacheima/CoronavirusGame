@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 7fca0e5d151860b4aae8d152d30adaac
+=======
+guid: 3f7db53b061b19f4bb0e9b2cef70e661
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -55,7 +59,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< Updated upstream
     filterMode: 0
+=======
+    filterMode: -1
+>>>>>>> Stashed changes
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -107,6 +115,21 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< Updated upstream
+=======
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+>>>>>>> Stashed changes
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -125,10 +148,17 @@ TextureImporter:
       name: Sprite_Panda_0
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
         x: 38
         y: 5
         width: 222
         height: 276
+=======
+        x: 37
+        y: 4
+        width: 224
+        height: 277
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,7 +166,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: bac30932ab3071c4baaad304867959d1
+=======
+      spriteID: ed3320c07654a7344a5f3c976c58f3f8
+>>>>>>> Stashed changes
       internalID: 5999796285575678888
       vertices: []
       indices: 
@@ -147,9 +181,15 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 336
+<<<<<<< Updated upstream
         y: 4
         width: 224
         height: 278
+=======
+        y: 3
+        width: 225
+        height: 280
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,7 +197,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 6f29cb08fd9130e4893aaf07083b12c9
+=======
+      spriteID: 957aa1be91391514e80222a31d7cf013
+>>>>>>> Stashed changes
       internalID: 7416017315963947915
       vertices: []
       indices: 
@@ -168,9 +212,15 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 629
+<<<<<<< Updated upstream
         y: 5
         width: 225
         height: 283
+=======
+        y: 4
+        width: 225
+        height: 285
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,7 +228,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 3297e41680dcfaa46a8e3a70c293ceb7
+=======
+      spriteID: 57a002ee3dba0e54eaa8925983487b5a
+>>>>>>> Stashed changes
       internalID: 1919705152903713554
       vertices: []
       indices: 
@@ -188,10 +242,17 @@ TextureImporter:
       name: Sprite_Panda_3
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
         x: 939
         y: 4
         width: 224
         height: 278
+=======
+        x: 938
+        y: 3
+        width: 225
+        height: 280
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,7 +260,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 85759a15538a2764eb34440b0484e236
+=======
+      spriteID: 7d2387dd8af800044b0a157823ac2a0f
+>>>>>>> Stashed changes
       internalID: 8364189169595929596
       vertices: []
       indices: 
@@ -209,10 +274,17 @@ TextureImporter:
       name: Sprite_Panda_4
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
         x: 1240
         y: 5
         width: 223
         height: 276
+=======
+        x: 1239
+        y: 4
+        width: 224
+        height: 277
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,7 +292,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: ce42b398769b3ff4795433e4248671c0
+=======
+      spriteID: 895b0efe45c6f44459ecc02c24ec035e
+>>>>>>> Stashed changes
       internalID: -1018044759863958004
       vertices: []
       indices: 
@@ -231,9 +307,15 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1536
+<<<<<<< Updated upstream
         y: 5
         width: 224
         height: 277
+=======
+        y: 4
+        width: 225
+        height: 279
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,7 +323,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 5f43b69450a66d14b8c920f916fd93bb
+=======
+      spriteID: 6ab220675c9a93f458a8cdd92cba6ebe
+>>>>>>> Stashed changes
       internalID: -3342567980495369116
       vertices: []
       indices: 
@@ -251,10 +337,17 @@ TextureImporter:
       name: Sprite_Panda_6
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
         x: 1846
         y: 4
         width: 225
         height: 284
+=======
+        x: 1845
+        y: 3
+        width: 226
+        height: 286
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,7 +355,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 3ca9479f40275ba4c907763c88b59407
+=======
+      spriteID: 46a45646e2ef1904ab7d2ba50802d42f
+>>>>>>> Stashed changes
       internalID: -4032572297021641123
       vertices: []
       indices: 
@@ -272,10 +369,17 @@ TextureImporter:
       name: Sprite_Panda_7
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
         x: 2140
         y: 5
         width: 224
         height: 277
+=======
+        x: 2139
+        y: 4
+        width: 225
+        height: 279
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,7 +387,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 1d7c73f6d8f7ca24898aaf6520b960b1
+=======
+      spriteID: 6f4ef71a2123fb14296b35948228c10e
+>>>>>>> Stashed changes
       internalID: 2419780150273172803
       vertices: []
       indices: 
