@@ -4090,6 +4090,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &1501150765
 GameObject:
   m_ObjectHideFlags: 0
@@ -4229,6 +4230,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
