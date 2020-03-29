@@ -33,7 +33,13 @@ public class Timer : MonoBehaviour
     private bool faceTouchingActive = false;
     private bool socialDistancingActive = false;
     private bool hiddenobjectActive = false;
-    
+
+    public GameObject water1;
+    public GameObject water2;
+    public GameObject water3;
+    public GameObject water4;
+    public GameObject water5;
+
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +50,13 @@ public class Timer : MonoBehaviour
         endButton.SetActive(false);
         isStarted = false;
         sceneStartTime = Time.time;
+
+        water1.SetActive(false);
+        water2.SetActive(false);
+        water3.SetActive(false);
+        water4.SetActive(false);
+        water5.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -55,6 +68,31 @@ public class Timer : MonoBehaviour
             {
                 percent -= .05f * Time.deltaTime;
                 timerFill.fillAmount = percent;
+
+                if(handwashingActive && percent <= .9f)
+                {
+                    water1.SetActive(true);
+                }
+
+                if(handwashingActive && percent < .9f && percent > .75f)
+                {
+                    water2.SetActive(true);
+                }
+
+                if(handwashingActive && percent < .7f && percent > .55f)
+                {
+                    water3.SetActive(true);
+                }
+
+                if(handwashingActive && percent < .5f && percent > .35f)
+                {
+                    water4.SetActive(true);
+                }
+
+                if (handwashingActive && percent < .3f && percent > .15f) ;
+                {
+                    water5.SetActive(true);
+                }
             }
             
             if(percent <= 0f)

@@ -10,7 +10,7 @@ public class Soap : MoveableObject
         mousePos = Input.mousePosition;
         mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
-        if (isBeingHeld && gameObject.tag == "Soap" || isBeingHeld && gameObject.tag == "Bubbles")
+        if (isBeingHeld && gameObject.tag == "Soap" || isBeingHeld && gameObject.tag == "Bubble")
         {
             this.gameObject.transform.position = new Vector3(mousePos.x, mousePos.y, 0f);
         }
